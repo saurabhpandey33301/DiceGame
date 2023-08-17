@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="diceGame.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body style="background-color: greenyellow;">
+
+    <h1 style="margin-left: 600px;">let's Go</h1>
+    <div class="name" >
+        <span style="margin-left: 450px;" class="player1">Player 1</span>
+        <span style="margin-left: 340px;" class="player2">Player 2</span><br><br>
+        <div class="image">
+            <img src="image/dice1.png" alt="dice1" class="img1">
+            <img src="image/dice2.png" alt="dice2" class="img2">
+        </div>
+    </div>
+    <br>
+    <div class="containerBtn">
+        <button type="button" class=" btn btn-outline-primary btn-lg" onclick="DiceRoll()">Roll the Dice !!</button> <br>
+        <br><button type="button" class=" btn btn-primary btn-lg" onclick="editNames()">Change Name</button>
+    </div>
+    
+
+
+   <script src="diceGames.js"></script>
+</body>
+</html>
