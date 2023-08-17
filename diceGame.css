@@ -1,5 +1,43 @@
-.name{
-  font-size: 25px;  
+
+body{
+    background-color: greenyellow;
+    margin: 0;
+}
+
+.container{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.dice{
+    margin-left: 0px;
+    display: inline-block;
+    margin: 10px;
+}
+h1{
+    margin-left: 30px;
+    font-family: "Lobster",cursive;
+    text-shadow: 4px 0 #232931;
+    font-size: 4.5rem;
+    color: blue;
+    text-align: center;
+    
+}
+p{
+    font-size: 2rem;
+    color: rgb(56, 19, 223);
+    font-family: "Indie Flower",cursive;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+.hmrbtn{
+     text-decoration: none;
+}
+/* .name{
+  font-size: 30px;
+  color: rgba(48, 11, 232, 0.943);  
 }
 .img1{
     height: 200px;
@@ -17,4 +55,4 @@
 }
 .containerBtn{
     margin-left: 620px;
-}
+} */

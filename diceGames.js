@@ -8,8 +8,8 @@ function editNames(){
         alert("please enter a valid name!");
         return;
     }
-    document.querySelector("span.player1").innerHTML = player1;
-    document.querySelector("span.player2").innerHTML = player2;
+    document.querySelector("p.player1").innerHTML = player1;
+    document.querySelector("p.player2").innerHTML = player2;
 
 }
 function DiceRoll(){
